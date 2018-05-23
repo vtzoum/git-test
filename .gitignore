@@ -1,0 +1,37 @@
+####################
+# DIRS
+####################
+
+build/
+db/
+.git/
+
+#Unused Statics
+static/themes/flat-admin-bootstrap-templates-master/unused/
+static-unused/*
+
+#Scripts
+
+#Test 
+test/
+testing/
+
+#Templates for JQX test
+templates/
+
+#Upload dir    s
+/uploads
+/uploads-toUPLOAD
+
+####################
+# FILES
+####################
+#All Vim Sessions
+Session-*.vim
+
+#All SQLITE DB
+db*.sqlite3
+
+*.py~
+*.pyc
+*.swo
